@@ -14,16 +14,19 @@
       android:text="아무말 "/>
 
   <EditText
+      android:id="@+id/contentEdt"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:hint="아무말이나 적으시오"/>'
 <Button
+    android:id="@+id/okBtn"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
   android:text="문장반영"/>
 
 
   <TextView
+      android:id="@+id/resultTxt"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:gravity="center"
